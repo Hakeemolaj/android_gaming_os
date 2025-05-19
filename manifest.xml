@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin"
+          fetch="https://github.com/Hakeemolaj/" />
+  
+  <default revision="main"
+           remote="origin"
+           sync-j="4" />
+  
+  <!-- Core Android repositories -->
+  <project path="build" name="android_gaming_os_build" />
+  <project path="device/common" name="android_gaming_os_device_common" />
+  <project path="frameworks/base" name="android_gaming_os_frameworks_base" />
+  <project path="frameworks/native" name="android_gaming_os_frameworks_native" />
+  <project path="hardware" name="android_gaming_os_hardware" />
+  <project path="system" name="android_gaming_os_system" />
+  
+  <!-- Gaming-specific packages -->
+  <project path="packages/apps/GameMode" name="android_gaming_os_packages_gamemode" />
+  <project path="packages/apps/PerformanceOptimizer" name="android_gaming_os_packages_performance" />
+  
+  <!-- Vendor-specific components -->
+  <project path="vendor" name="android_gaming_os_vendor" />
+</manifest>
